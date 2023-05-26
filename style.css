@@ -1,9 +1,5 @@
-body {
-  min-height: 2000px;
-}
-
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 3rem;
   background-color: #e2edff;
 }
 
@@ -103,4 +99,11 @@ section {
 
 .keyboard-box:hover .book-img {
   transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+}
+
+/* Media query untuk tampilan seluler */
+@media (max-width: 767px) {
+  .jumbotron {
+    padding-right: 20px; /* Sesuaikan dengan nilai yang diinginkan */
+  }
 }
